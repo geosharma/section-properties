@@ -1,12 +1,40 @@
 Change Log:
 ===========
 
+v1.0.8:
+-------
+
+- All plots now return figure and axes objects
+- Fix bug in frame_properties causing the program to crash under certain circumstances
+
+v1.0.7:
+-------
+
+- Fix bug with geometry cleaning algorithm resulting in an infinite loop
+- Added NASTRAN sections (JohnDN90)
+- Added tight_layout to plots (Nils Wagner)
+- Added BoxGirderSection class
+- Added cross-section perimeter calculation
+- Added perimeter offset method (BETA)
+- Added mesh refinement example to docs
+
+v1.0.6:
+-------
+
+- Fix bug with geometry cleaning algorithm resulting in an infinite loop
+- Added NASTRAN sections (JohnDN90)
+- Added tight_layout to plots (Nils Wagner)
+- Added BoxGirderSection class
+- Added cross-section perimeter calculation
+- Added perimeter offset method (BETA)
+- Added mesh refinement example to docs
+
 v1.0.5:
 -------
 
 - Added calculation of monosymmetric constants
 - Added tapered flange I-section and channel sections
-- Added solid elliptical and hollow elliptcal sections (BenjaminFraser)
+- Added solid elliptical and hollow elliptical sections (BenjaminFraser)
 - Added polygonal section (Agent6-6-6)
 - Handle zero radius for all section classes; handle r_out < t for relevant sections
 - Update Cee and Zed sections to account for short lips

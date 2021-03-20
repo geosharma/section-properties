@@ -5,11 +5,10 @@
 
 |Build Status| |Documentation Status|
 
-A python package for the analysis of arbitrary cross-sections using the
-finite element method written by Robbie van Leeuwen. *sectionproperties*
-can be used to determine section properties to be used in structural
-design and visualise cross-sectional stresses resulting from
-combinations of applied forces and bending moments.
+A python package for the analysis of arbitrary cross-sections using the finite element method
+written by Robbie van Leeuwen. *sectionproperties* can be used to determine section properties to
+be used in structural design and visualise cross-sectional stresses resulting from combinations of
+applied forces and bending moments.
 
 `Subscribe`_ to the mailing list!
 
@@ -47,10 +46,9 @@ Once *meshpy* has been installed, *sectionproperties* can be installed:
 Documentation:
 --------------
 
-*sectionproperties* has a fully documented python API which you can find
-at https://sectionproperties.readthedocs.io/. To read more about the
-theory behind the program, its implementation and some more examples,
-check out my blog at https://robbievanleeuwen.github.io/.
+*sectionproperties* has a fully documented python API which you can find at
+https://sectionproperties.readthedocs.io/. To read more about the theory behind the program, its
+implementation and some more examples, check out my blog at https://robbievanleeuwen.github.io/.
 
 Current Capabilities:
 ---------------------
@@ -62,6 +60,7 @@ Pre-Processor:
 -  [x] Custom section geometry input
 -  [x] Common section geometry generators
 -  [x] Multiple geometry merging
+-  [x] Perimeter offset tool
 -  [x] Geometry cleaning
 -  [ ] JSON input file
 -  [ ] .dxf import
@@ -74,6 +73,7 @@ Cross-Section Analysis:
 -  [x] Global axis geometric section properties:
 
    -  [x] Area
+   -  [x] Perimeter
    -  [x] First moments of area
    -  [x] Second moments of area
    -  [x] Elastic centroid
@@ -106,7 +106,7 @@ Cross-Section Analysis:
 -  [x] Shear section properties:
 
    -  [x] Shear centre (elastic method)
-   -  [x] Shear centre (Trefftz’s method)
+   -  [x] Shear centre (Trefftz's method)
    -  [x] Shear areas (global axis)
    -  [x] Shear areas (principal axis)
 

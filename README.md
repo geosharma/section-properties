@@ -1,5 +1,7 @@
 ![alt text](logo.png "sectionproperties")
 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F32ZRPZ)
+
 [![Build Status](https://travis-ci.com/robbievanleeuwen/section-properties.svg?branch=master)](https://travis-ci.com/robbievanleeuwen/section-properties) [![Documentation Status](https://readthedocs.org/projects/sectionproperties/badge/?version=latest)](https://sectionproperties.readthedocs.io/en/latest/?badge=latest)
 
 A python package for the analysis of arbitrary cross-sections using the finite element method written by Robbie van Leeuwen. *sectionproperties* can be used to determine section properties to be used in structural design and visualise cross-sectional stresses resulting from combinations of applied forces and bending moments.
@@ -44,6 +46,7 @@ $ pip install sectionproperties
 - [x] Custom section geometry input
 - [x] Common section geometry generators
 - [x] Multiple geometry merging
+- [x] Perimeter offset tool
 - [x] Geometry cleaning
 - [ ] JSON input file
 - [ ] .dxf import
@@ -53,6 +56,7 @@ $ pip install sectionproperties
 ### Cross-Section Analysis:
 - [x] Global axis geometric section properties:
   - [x] Area
+  - [x] Perimeter
   - [x] First moments of area
   - [x] Second moments of area
   - [x] Elastic centroid

@@ -12,6 +12,8 @@ def validate_properties(test, validation_list, section):
 
         if entry["prop"] == "area":
             val = section.get_area()
+        elif entry["prop"] == "perimeter":
+            val = section.get_perimeter()
         elif entry["prop"] == "ea":
             val = section.get_ea()
         elif entry["prop"] == "qx":
@@ -116,6 +118,7 @@ def validate_properties(test, validation_list, section):
         else:
             calc_tol = val - entry["val"]
 
-        test.assertTrue(np.isclose(val, entry["val"], rtol=tol),
-                        msg="Prop: {0}; Tol: {1:.5e}".format(
-                        entry["prop"], calc_tol))
+        test.assertTrue(
+            np.isclose(val, entry["val"], rtol=tol), msg="Prop: {0}; Tol: {1:.5e}".format(
+                entry["prop"], calc_tol)
+        )
